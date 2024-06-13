@@ -17,9 +17,7 @@ const Colorizer = () => {
   const [color, setColor] = useState('#6d0e0e');
     return(
      <div className ="colorizer">
-       <div className="box" style={{backgroundColor: color}}> 
-        
-       </div>
+       <div className="box" style={{backgroundColor: color}}> {color}</div>
 <button onClick={ changeColor }>Change Color</button>
        
      </div>
